@@ -1,0 +1,28 @@
+name = input("What is your name? ")
+name = name.title()
+print("Hello," , name)
+
+if name == "aron" or name == "jerry":
+    print("Hello, ", name)
+    print("Goodbye," , name)
+else:
+    print("Hello, friend!!!")
+    age = int(input("How old are you please? "))
+if age < 18:
+    print("your not allowed to vote.")
+elif age > 18 and age < 200:
+    print("you are allowed to vote.")
+
+else:
+    print("Goodbye,", name)
+    print("You are" , age , "years old.")
+   
+     
+    print("which year are you?\n")
+    year = input()
+    print("your in year: \n", year)
+    print("do you support ddumba timothy, enter your name and answer?\n")
+    yes= input()
+    print("thank u: \n", yes)
+
+   
